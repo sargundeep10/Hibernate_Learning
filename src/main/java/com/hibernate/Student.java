@@ -7,6 +7,9 @@ import javax.persistence.*;
 
 @Entity
 public class Student {
+
+	public Student() {
+	}
 	
 	public Student(int uid, String name, String dept) {
 		this.uid = uid;
